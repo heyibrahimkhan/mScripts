@@ -7,4 +7,4 @@ for file_name in os.listdir('rules'):
         with open('rules/' + file_name, 'r') as file:
             for line in file:
                 # Search for a keyword
-                if 'ETPRO' in line: out.write(line + '\n')
+                if 'ETPRO' in line: out.write(line)
