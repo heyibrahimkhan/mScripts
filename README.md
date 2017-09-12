@@ -18,5 +18,8 @@ This'll grow with the years
 	2. usm_raw_log_ip: 
 		Give path to a list of IPs separated by \n and it will generate query like 'ip=IP1 or ip=IP2 or ip=IP3' and writes output to filename+'done'
 
-	2. usm_netflow_ip:
+	3. usm_netflow_ip:
 		Give path to a list of IPs separated by \n and it will generate query like 'ip P1 or ip IP2 or ip IP3' and writes output to filename+'done'
+
+	4. search_key1:
+		Give path to a directory containing multiple files and search for a keyword in each line of every file in the directory. If found, write to output file
